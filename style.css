@@ -127,6 +127,7 @@ header {
 .footer li i {
   margin-right: 10px;
   color: var(--white);
+  transition: 0.5s;
 }
 
 .icon:hover {
