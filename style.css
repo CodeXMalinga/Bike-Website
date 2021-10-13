@@ -134,3 +134,21 @@ header {
   color: var(--red);
   cursor: pointer;
 }
+
+.dots {
+  display: flex;
+}
+
+.dots .dot {
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.dots .active {
+  background: var(--white);
+}
