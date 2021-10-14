@@ -19,10 +19,10 @@ const dots = document.querySelectorAll('.dot');
 
     }
 
-      for (let j = 0; j < dots.length; j++)
-        dots[j].addEventListener('click', function() {
-          setActive(j);
-        })
+for (let j = 0; j < dots.length; j++)
+    dots[j].addEventListener('click', function() {
+        setActive(j);
+    })
 
 
    
